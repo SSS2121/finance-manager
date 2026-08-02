@@ -114,7 +114,7 @@ gestor-de-finanzas/
 │   │   └── imagenes/
 │   ├── src/
 │   │   ├── main.js
-│   │   ├── features/
+│   │   ├── components/
 │   │   │   ├── auth/
 │   │   │   ├── dashboard/
 │   │   │   ├── movements/
@@ -141,7 +141,7 @@ gestor-de-finanzas/
 Responsabilidades:
 
 - `frontend/public/imagenes`: únicos assets gráficos públicos del frontend.
-- `frontend/src/features`: comportamiento agrupado por función visible.
+- `frontend/src/components`: comportamiento agrupado por función visible.
 - `frontend/src/domain`: reglas financieras puras, independientes del DOM.
 - `frontend/src/state`: fuente de verdad de la aplicación durante la sesión.
 - `frontend/src/services`: acceso a mecanismos externos como almacenamiento y
